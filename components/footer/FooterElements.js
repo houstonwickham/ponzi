@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
+
 export const FooterContainer = styled.div`
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -68,11 +70,29 @@ export const FooterLink = styled.a`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 13px;
-  &:hover {
-    color: #fca311;
-    transition: 0.3s ease-out;
-    animation: headShake;
-    animation-duration: 1s;
+  @media (hover: hover) {
+    &:hover {
+      color: #fca311;
+      transition: 0.3s ease-out;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    &:hover {
+      color: #ffffff;
+    }
+  }
+`;
+
+export const FooterRoute = styled(Link)`
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+  @media (hover: hover) {
+    &:hover {
+      color: #fca311;
+      transition: 0.3s ease-out;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {
@@ -117,11 +137,13 @@ export const SocialLogo = styled.a`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
-  &:hover {
-    color: #fca311;
-    transition: 0.3s ease-out;
-    animation: headShake;
-    animation-duration: 1s;
+  @media (hover: hover) {
+    &:hover {
+      color: #fca311;
+      transition: 0.3s ease-out;
+      animation: headShake;
+      animation-duration: 1s;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {
@@ -151,11 +173,13 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
-  &:hover {
-    color: #fca311;
-    transition: 0.3s ease-out;
-    animation: headShake;
-    animation-duration: 1s;
+  @media (hover: hover) {
+    &:hover {
+      color: #fca311;
+      transition: 0.3s ease-out;
+      animation: headShake;
+      animation-duration: 1s;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {

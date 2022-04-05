@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaBars } from 'react-icons/fa';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
 import {
@@ -11,18 +12,21 @@ import {
   NavItem,
   NavBtn,
   NavBtnLink,
+  NavRoute,
 } from './NavbarElements';
 const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>
-            <NavLogoIcon>
-              <RiMoneyDollarCircleLine />
-            </NavLogoIcon>
-            ponzi
-          </NavLogo>
+          <Link href='/' passHref>
+            <NavLogo>
+              <NavLogoIcon>
+                <RiMoneyDollarCircleLine />
+              </NavLogoIcon>
+              ponzi
+            </NavLogo>
+          </Link>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -37,11 +41,15 @@ const Navbar = ({ toggle }) => {
               <NavLinks to='/'>Services</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/'>Signup</NavLinks>
+              <Link href='/user/signup' passHref>
+                <NavRoute>Signup</NavRoute>
+              </Link>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/'>Sign In</NavBtnLink>
+            <Link href='/user/signin' passHref>
+              <NavBtnLink>Sign In</NavBtnLink>
+            </Link>
           </NavBtn>
         </NavbarContainer>
       </Nav>

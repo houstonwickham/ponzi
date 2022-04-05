@@ -1,7 +1,19 @@
-import React from 'react';
+import Head from 'next/head';
 
 const hire = () => {
-  return <div>hire</div>;
+  return (
+    <>
+      <Head>
+        <title>ponzi | hire</title>
+        <meta name='description' content='ponzi financial' />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+
+      <main>
+        <div>How We Hire</div>
+      </main>
+    </>
+  );
 };
 
 export default hire;

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
-import 'animate.css';
 
 export const Nav = styled.nav`
   background: #000;
@@ -28,7 +27,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled.a`
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -38,11 +37,13 @@ export const NavLogo = styled(Link)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-  &:hover {
-    animation: headShake;
-    animation-duration: 1s;
-    color: #fca311;
-    transition: 0.3s ease-out;
+  @media (hover: hover) {
+    &:hover {
+      animation: headShake;
+      animation-duration: 1s;
+      color: #fca311;
+      transition: 0.3s ease-out;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {
@@ -96,11 +97,39 @@ export const NavLinks = styled(Link)`
   &.active {
     border-bottom: 3px solid #fca311;
   }
-  &:hover {
-    animation: headShake;
-    animation-duration: 1s;
-    color: #fca311;
-    transition: 0.3s ease-out;
+  @media (hover: hover) {
+    &:hover {
+      animation: headShake;
+      animation-duration: 1s;
+      color: #fca311;
+      transition: 0.3s ease-out;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    &:hover {
+      color: #ffffff;
+    }
+  }
+`;
+
+export const NavRoute = styled.a`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    border-bottom: 3px solid #fca311;
+  }
+  @media (hover: hover) {
+    &:hover {
+      animation: headShake;
+      animation-duration: 1s;
+      color: #fca311;
+      transition: 0.3s ease-out;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {
@@ -117,7 +146,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(Link)`
+export const NavBtnLink = styled.a`
   border-radius: 50px;
   background-color: #fca311;
   white-space: nowrap;
@@ -129,12 +158,14 @@ export const NavBtnLink = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-    animation: headShake;
-    animation-duration: 1s;
+  @media (hover: hover) {
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      background: #fff;
+      color: #010606;
+      animation: headShake;
+      animation-duration: 1s;
+    }
   }
   @media screen and (max-width: 820px) {
     &:hover {

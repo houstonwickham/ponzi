@@ -14,6 +14,7 @@ import {
   FooterLinkTitle,
   FooterLinksContainer,
   FooterLinksWrapper,
+  FooterRoute,
   FooterWrap,
   MoneyWrap,
   MoneyWrapSmall,
@@ -32,20 +33,11 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <Link href='/about/history' passHref>
-                <FooterLink>Our History</FooterLink>
-              </Link>
-              <Link href='/about/works' passHref>
-                <FooterLink>How it works</FooterLink>
-              </Link>
-              <Link href='/about/testimonials' passHref>
-                <FooterLink>Testimonials</FooterLink>
-              </Link>
+              <FooterRoute to='/'>About Us</FooterRoute>
+              <FooterRoute to='/'>Discover</FooterRoute>
+              <FooterRoute to='/'>Services</FooterRoute>
               <Link href='/about/investors' passHref>
                 <FooterLink>Investors</FooterLink>
-              </Link>
-              <Link href='/about/tos' passHref>
-                <FooterLink>Terms of Service</FooterLink>
               </Link>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -53,11 +45,14 @@ const Footer = () => {
               <Link href='/contact/support' passHref>
                 <FooterLink>Support</FooterLink>
               </Link>
+              <Link href='/contact/press' passHref>
+                <FooterLink>Press</FooterLink>
+              </Link>
               <Link href='/contact/faq' passHref>
                 <FooterLink>FAQ</FooterLink>
               </Link>
-              <Link href='/contact/press' passHref>
-                <FooterLink>Press</FooterLink>
+              <Link href='/contact/tos' passHref>
+                <FooterLink>Terms of Service</FooterLink>
               </Link>
             </FooterLinkItems>
           </FooterLinksWrapper>

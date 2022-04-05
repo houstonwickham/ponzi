@@ -1,19 +1,19 @@
 import Head from 'next/head';
 
-const investors = () => {
+const signin = () => {
   return (
     <>
       <Head>
-        <title>ponzi | investors</title>
+        <title>ponzi | sign in</title>
         <meta name='description' content='ponzi financial' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <div>Investors</div>
+        <div>Sign In</div>
       </main>
     </>
   );
 };
 
-export default investors;
+export default signin;

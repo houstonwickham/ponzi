@@ -1,7 +1,19 @@
-import React from 'react';
+import Head from 'next/head';
 
 const impact = () => {
-  return <div>impact</div>;
+  return (
+    <>
+      <Head>
+        <title>ponzi | social impact</title>
+        <meta name='description' content='ponzi financial' />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+
+      <main>
+        <div>Social Impact</div>
+      </main>
+    </>
+  );
 };
 
 export default impact;
