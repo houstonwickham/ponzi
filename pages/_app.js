@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: helvetica;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
