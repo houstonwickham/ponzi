@@ -32,31 +32,31 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <Link href='/' passHref>
+              <Link href='/about/history' passHref>
                 <FooterLink>Our History</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/about/works' passHref>
                 <FooterLink>How it works</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/about/testimonials' passHref>
                 <FooterLink>Testimonials</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/about/investors' passHref>
                 <FooterLink>Investors</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/about/tos' passHref>
                 <FooterLink>Terms of Service</FooterLink>
               </Link>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <Link href='/' passHref>
-                <FooterLink>Contact</FooterLink>
-              </Link>
-              <Link href='/' passHref>
+              <Link href='/contact/support' passHref>
                 <FooterLink>Support</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/contact/faq' passHref>
+                <FooterLink>FAQ</FooterLink>
+              </Link>
+              <Link href='/contact/press' passHref>
                 <FooterLink>Press</FooterLink>
               </Link>
             </FooterLinkItems>
@@ -64,31 +64,31 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Careers</FooterLinkTitle>
-              <Link href='/' passHref>
+              <Link href='/careers/openings' passHref>
                 <FooterLink>Openings</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/careers/smbassadors' passHref>
                 <FooterLink>Ambassadors</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/careers/agency' passHref>
                 <FooterLink>Agency</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/careers/hire' passHref>
                 <FooterLink>How We Hire</FooterLink>
               </Link>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Diversity & Impact</FooterLinkTitle>
-              <Link href='/' passHref>
+              <Link href='/diversity/mentalhealth' passHref>
                 <FooterLink>Mental Health</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/diversity/diversity' passHref>
                 <FooterLink>Diversity, Inclusion & Belonging</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/diversity/impact' passHref>
                 <FooterLink>Social Impact</FooterLink>
               </Link>
-              <Link href='/' passHref>
+              <Link href='/diversity/equity' passHref>
                 <FooterLink>Racial Equity</FooterLink>
               </Link>
             </FooterLinkItems>
