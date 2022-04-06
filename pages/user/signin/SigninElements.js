@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 0px 30px;
   z-index: 1;
-  min-height: calc(100vh - 384px);
+  min-height: 100vh;
 `;
 
 export const Content = styled.div`
