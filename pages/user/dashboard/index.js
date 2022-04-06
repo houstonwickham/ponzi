@@ -1,5 +1,9 @@
 import Head from 'next/head';
-import { Container, Content, H1 } from './DashboardElements';
+import {
+  Container,
+  Content,
+  H1,
+} from '../../../components/styled/DashboardElements';
 
 const signin = () => {
   return (

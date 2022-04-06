@@ -1,5 +1,10 @@
 import Head from 'next/head';
-import { Container, Content, H1, P1 } from './SigninElements';
+import {
+  Container,
+  Content,
+  H1,
+  P1,
+} from '../../../components/styled/SigninElements';
 
 const signin = () => {
   return (

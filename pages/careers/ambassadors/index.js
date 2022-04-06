@@ -1,5 +1,12 @@
 import Head from 'next/head';
-import { Container, Content, H1, P1, P2, P3 } from './AmbassadorsElements';
+import {
+  Container,
+  Content,
+  H1,
+  P1,
+  P2,
+  P3,
+} from '../../../components/styled/AmbassadorsElements';
 const ambassadors = () => {
   return (
     <>

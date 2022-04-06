@@ -1,5 +1,13 @@
 import Head from 'next/head';
-import { Container, Content, H1, H2, P1, P2, P3 } from './TosElements';
+import {
+  Container,
+  Content,
+  H1,
+  H2,
+  P1,
+  P2,
+  P3,
+} from '../../../components/styled/TosElements';
 const tos = () => {
   return (
     <>
@@ -82,11 +90,11 @@ const tos = () => {
             <H2>No warranties</H2>
 
             <P1>
-              This Website is provided "as is," with all faults, and ponzi
-              express no representations or warranties, of any kind related to
-              this Website or the materials contained on this Website. Also,
-              nothing contained on this Website shall be interpreted as advising
-              you.
+              This Website is provided {'"'}as is,{'"'} with all faults, and
+              ponzi express no representations or warranties, of any kind
+              related to this Website or the materials contained on this
+              Website. Also, nothing contained on this Website shall be
+              interpreted as advising you.
             </P1>
 
             <H2>Limitation of liability</H2>
