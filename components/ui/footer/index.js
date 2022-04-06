@@ -33,9 +33,15 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterRoute to='/'>About Us</FooterRoute>
-              <FooterRoute to='/'>Discover</FooterRoute>
-              <FooterRoute to='/'>Services</FooterRoute>
+              <Link href='/#about' passHref>
+                <FooterRoute>About Us</FooterRoute>
+              </Link>
+              <Link href='/#discover' passHref>
+                <FooterRoute>Discover</FooterRoute>
+              </Link>
+              <Link href='/#services' passHref>
+                <FooterRoute>Services</FooterRoute>
+              </Link>
               <Link href='/about/investors' passHref>
                 <FooterLink>Investors</FooterLink>
               </Link>
