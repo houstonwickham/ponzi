@@ -60,7 +60,8 @@ const tos = () => {
             <H2>Your Content</H2>
 
             <P1>
-              In these Website Standard Terms and Conditions, "Your Content"
+              In these Website Standard Terms and Conditions, {'"'}Your Content
+              {'"'}
               shall mean any audio, video text, images or other material you
               choose to display on this Website. By displaying Your Content, you
               grant ponzi a non-exclusive, worldwide irrevocable, sub licensable
@@ -70,8 +71,8 @@ const tos = () => {
 
             <P1>
               Your Content must be your own and must not be invading any
-              third-party’s rights. ponzi reserves the right to remove any of
-              Your Content from this Website at any time without notice.
+              third-party&apos;s rights. ponzi reserves the right to remove any
+              of Your Content from this Website at any time without notice.
             </P1>
 
             <H2>Your Privacy</H2>

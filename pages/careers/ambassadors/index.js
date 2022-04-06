@@ -18,7 +18,7 @@ const ambassadors = () => {
               Twitch channel? Do you post daily VLOGs on Youtube?
             </P1>
             <P2>
-              If so, you sound like a perfect fit for ponzi's Ambassador
+              If so, you sound like a perfect fit for ponzi&apos;s Ambassador
               Program. We offer you almost no benefits that we do not offer our
               regular customers, and in return, we constantly hound you about
               giving us shout outs online.

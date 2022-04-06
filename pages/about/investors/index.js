@@ -19,9 +19,9 @@ const investors = () => {
               over?
             </P1>
             <P2>
-              On top of "investing" your hard earned money in our Standard Fund,
-              we also offer opportunities for especially easy marks to invest
-              further in our company.
+              On top of {'"'}investing{'"'} your hard earned money in our
+              Standard Fund, we also offer opportunities for especially easy
+              marks to invest further in our company.
             </P2>
             <P3>
               If you are interested in funding our organization, mention

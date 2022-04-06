@@ -15,7 +15,7 @@ const openings = () => {
             <H1>Current Openings</H1>
             <P1>
               Why would you want to work here? Well, what is more fun than
-              taking someone's money?
+              taking someone&apos;s money?
             </P1>
             <P2>
               Currently, we do not have any open positions. Keep an eye on this

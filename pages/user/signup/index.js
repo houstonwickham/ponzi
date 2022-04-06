@@ -14,7 +14,7 @@ const signup = () => {
         <Container>
           <Content>
             <H1>Sign up coming soon!</H1>
-            <P1>How are you going to give us money if you can't join?</P1>
+            <P1>How are you going to give us money if you can&apos;t join?</P1>
           </Content>
         </Container>
       </main>

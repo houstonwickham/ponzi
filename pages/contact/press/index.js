@@ -18,9 +18,9 @@ const press = () => {
               {'"'}.
             </P1>
             <P2>
-              We don't think it is in our best interest to discuss our business
-              with the media and our lawyer highly advised against it before he
-              quit and left the country.
+              We don&apos;t think it is in our best interest to discuss our
+              business with the media and our lawyer highly advised against it
+              before he quit and left the country.
             </P2>
             <P3>
               Honestly, we just want to wish you good look with getting in touch

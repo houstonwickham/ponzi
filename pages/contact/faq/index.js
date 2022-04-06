@@ -11,27 +11,27 @@ const faq = () => {
 
       <main>
         <Container>
-      <Content>
-        <H1>Frequently Asked Questions</H1>
-        <P1>
-          Q: What do you do at ponzi?
-          <br />
-          A: We take money, and we move it around
-        </P1>
-        <P2>
-          Q: Where are you located?
-          <br />
-          A: On some tropical island somewhere to avoid legal troubles.
-        </P2>
-        <P3>
-          Q: How do I get my money back?
-          <br />
-          A: Depends on when you jumped in on the process. Probably never.
-        </P3>
-      </Content>
-    </Container>
+          <Content>
+            <H1>Frequently Asked Questions</H1>
+            <P1>
+              Q: What do you do at ponzi?
+              <br />
+              A: We take money, and we move it around
+            </P1>
+            <P2>
+              Q: Where are you located?
+              <br />
+              A: On some tropical island somewhere to avoid legal troubles.
+            </P2>
+            <P3>
+              Q: How do I get my money back?
+              <br />
+              A: Depends on when you jumped in on the process. Probably never.
+            </P3>
+          </Content>
+        </Container>
+      </main>
     </>
-    
   );
 };
 
