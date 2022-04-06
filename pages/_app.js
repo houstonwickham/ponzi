@@ -1,5 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import Layout from '../components/layout';
+import Layout from '../components/ui/layout';
 
 const GlobalStyle = createGlobalStyle`
 /* Box sizing rules */

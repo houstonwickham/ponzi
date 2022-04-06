@@ -1,4 +1,8 @@
 import Head from 'next/head';
+import Hero from '../components/hero';
+import About from '../components/about';
+import Discover from '../components/discover';
+import Services from '../components/services';
 
 export default function Home() {
   return (
@@ -10,7 +14,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>Home</div>
+        <Hero />
+        <About />
+        <Discover />
+        <Services />
       </main>
     </>
   );
