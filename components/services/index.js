@@ -17,17 +17,17 @@ const index = () => {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServiceCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesTextWrapper>
-            <ServicesH2>Holding your money</ServicesH2>
-            <ServicesP>We promise to always keep your money safe!</ServicesP>
-          </ServicesTextWrapper>
-        </ServiceCard>
-        <ServiceCard>
           <ServicesIcon src={Icon2} />
           <ServicesTextWrapper>
             <ServicesH2>Taking your money</ServicesH2>
             <ServicesP>We can accept your money any time or place!</ServicesP>
+          </ServicesTextWrapper>
+        </ServiceCard>
+        <ServiceCard>
+          <ServicesIcon src={Icon1} />
+          <ServicesTextWrapper>
+            <ServicesH2>Holding your money</ServicesH2>
+            <ServicesP>We promise to always keep your money safe!</ServicesP>
           </ServicesTextWrapper>
         </ServiceCard>
         <ServiceCard>

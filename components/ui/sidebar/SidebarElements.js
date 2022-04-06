@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-scroll';
 import { FaTimes } from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
@@ -50,7 +49,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
-export const SidebarLink = styled(Link)`
+export const SidebarLink = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +67,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidebarRoute = styled.a`
+export const SidebarBtn = styled.a`
   border-radius: 50px;
   background: #fca311;
   white-space: nowrap;

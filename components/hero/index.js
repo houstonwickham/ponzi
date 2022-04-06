@@ -25,7 +25,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          src={require('../../video/video.mp4')}
+          src={require('../../public/video/video.mp4')}
           type='video/mp4'
         />
       </HeroBg>

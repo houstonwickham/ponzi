@@ -4,8 +4,8 @@ import {
   Icon,
   CloseIcon,
   SideBtnWrap,
+  SidebarBtn,
   SidebarLink,
-  SidebarRoute,
   SidebarWrapper,
   SidebarMenu,
 } from './SidebarElements';
@@ -17,22 +17,22 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>
-            About
-          </SidebarLink>
-          <SidebarLink to='discover' onClick={toggle}>
-            Discover
-          </SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>
-            Services
-          </SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>
-            Signup
-          </SidebarLink>
+          <Link href='/#about' passHref>
+            <SidebarLink onClick={toggle}>About</SidebarLink>
+          </Link>
+          <Link href='/#discover' passHref>
+            <SidebarLink onClick={toggle}>Discover</SidebarLink>
+          </Link>
+          <Link href='/#services' passHref>
+            <SidebarLink onClick={toggle}>Services</SidebarLink>
+          </Link>
+          <Link href='/user/signup' passHref>
+            <SidebarLink onClick={toggle}>Signup</SidebarLink>
+          </Link>
         </SidebarMenu>
         <SideBtnWrap>
           <Link href='/user/signin' passHref>
-            <SidebarRoute>Sign In</SidebarRoute>
+            <SidebarBtn>Sign In</SidebarBtn>
           </Link>
         </SideBtnWrap>
       </SidebarWrapper>

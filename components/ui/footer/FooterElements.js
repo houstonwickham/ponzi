@@ -5,19 +5,19 @@ export const FooterContainer = styled.div`
   background: -moz-linear-gradient(
     0deg,
     rgba(20, 33, 61, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(1, 6, 6, 1) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
     rgba(20, 33, 61, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(1, 6, 6, 1) 100%
   );
   background: linear-gradient(
     0deg,
     rgba(20, 33, 61, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(1, 6, 6, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14213d",endColorstr="#000000",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14213d",endColorstr="#010606",GradientType=1);
 `;
 
 export const FooterWrap = styled.div`

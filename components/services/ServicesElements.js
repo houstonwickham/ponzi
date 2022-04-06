@@ -12,6 +12,7 @@ export const ServicesContainer = styled.div`
     height: 1000px;
   }
   @media screen and (max-width: 768px) {
+    padding-top: 100px;
     height: 1270px;
   }
 `;
@@ -60,7 +61,6 @@ export const ServiceCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `;
 
